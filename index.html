@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Subjects Layout</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f0f0f0;
+            border-bottom: 1px solid #ccc;
+        }
+        .header h1 {
+            margin: 0;
+            color: #333;
+        }
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .column h2 {
+            margin: 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ddd;
+            font-size: 18px;
+            color: #444;
+            text-align: center;
+        }
+        .column ul {
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+        }
+        .column ul li {
+            margin-bottom: 8px;
+        }
+        .column ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .column ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #sidebar {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+#sidebar h2 {
+  color: purple;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.post-ad {
+  display: block;
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 8px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.calendar {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.calendar th, .calendar td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.links li {
+  margin: 5px 0;
+}
+
+.links a {
+  color: blue;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+.Curr{
+  display: inline-block;
+  vertical-align: top;
+}
+#main-content{
+  width: 1000px;
+}
+
+    </style>
+</head>
+<body>
+  <div>
+    <div id="sidebar" class="Curr" style="background-color:rgb(209, 207, 207);">
+      <img src="srm.png" alt="SRMUAP " height="55" width="180">
+        <h2>Curriculam</h2>
+        <button class="post-ad">Btech</button>
+        <input type="text" class="search-bar" placeholder="search Course" />
+        <h3>Event Calendar</h3>
+        <table class="calendar">
+          <tr>
+            <th>S</th>
+            <th>M</th>
+            <th>T</th>
+            <th>W</th>
+            <th>T</th>
+            <th>F</th>
+            <th>S</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+          </tr>
+          
+          
+
+          
+        </table>
+        <ul class="links">
+          <li><a href="#">New Year</a></li>
+          <li><a href="#">Bhogi</a></li>
+          <li><a href="#">Sankranti</a></li>
+          <li><a href="#">Kanuma</a></li>
+          <li><a href="#">Republic day</a></li>
+        </ul>
+    </div>
+      <div id="main-content" class="Curr">
+        <div class="header">
+            <h1>B.Tech Subjects and Semesters</h1>
+        </div>
+        <div class="columns">
+            <!-- Semester 1 -->
+            <div class="column">
+                <h2>Semester 1</h2>
+                <ul>
+                    <li><a href="#">Art of listening ,speaking and reading</a></li>
+                    <li><a href="#">Environmental Science</a></li>
+                    <li><a href="#">Analytical Reasoning and Aptitude Skills</a></li>
+                    <li><a href="#">Emerging Technologies</a></li>
+                    <li><a href="#">Engineering Physics</a></li>
+                    <li><a href="#">Calculus for Engineering</a></li>
+                    <li><a href="#">Fundamentals of Computing and programming in C </a></li>
+                </ul>
+            </div>
+            <!-- Semester 2 -->
+            <div class="column">
+                <h2>Semester 2</h2>
+                <ul>
+                    <li><a href="#">Effective Writing And Presentation Skills</a></li>
+                    <li><a href="#">Universal human Values and Ethics</a></li>
+                    <li><a href="#">Entrepreneurial Mindset</a></li>
+                    <li><a href="#">Principles of Economics and Management</a></li>
+                    <li><a href="#">Linear Algebra and Differential Equations</a></li>
+                    <li><a href="#">Foundations of Electrical and Electronics Engineering</a></li>
+                    <li><a href="#">Data Structures</a></li>
+                </ul>
+            </div>
+            <!-- Semester 3 -->
+            <div class="column">
+                <h2>Semester 3</h2>
+                <ul>
+                    <li><a href="#">Problem Solving Skills</a></li>
+                    <li><a href="#">Digital Electronics</a></li>
+                    <li><a href="#">Co-Curriculam Activities</a></li>
+                    <li><a href="#">Discrete Mathematics</a></li>
+                    <li><a href="#">Community Service and Social Responsibility</a></li>
+                    <li><a href="#">Coding Skill-1</a></li>
+                    <li><a href="#">OOPS with C++</a></li>
+                    <li><a href="#">Design and Analysis of Algorithms</a></li>
+                    <li><a href="#">Open Elective-Linear Algebra for AI and ML</a></li>
+                </ul>
+            </div>
+            <!-- Semester 4 -->
+            <div class="column">
+                <h2>Semester 4</h2>
+                <ul>
+                    <li><a href="#">Creative and Critical Thinking Skills</a></li>
+                    <li><a href="#">Co-Curriculam Activities</a></li>
+                    <li><a href="#">Community Service and social Responsibility</a></li>
+                    <li><a href="#">Database Management Systems</a></li>
+                    <li><a href="#">Coding Skill-2</a></li>
+                    <li><a href="#">Hands on with Python</a></li>
+                    <li><a href="#">Probability and Statistics</a></li>
+                    <li><a href="#">Web Technology</a></li>
+                    <li><a href="#">Open Elective-Financial Markets and Institutions </a></li>
+                </ul>
+            </div>
+            <!-- Semester 5 -->
+            <div class="column">
+                <h2>Semester 5</h2>
+                <ul>
+                    <li><a href="#">Co-Curriculam Activities</a></li>
+                    <li><a href="#">Community Service and social Responsibility</a></li>
+                    <li><a href="#">Machine Learning</a></li>
+                    <li><a href="#">Career Skills-1</a></li>
+                    <li><a href="#">Computer Networks</a></li>
+                    <li><a href="#">Operating Systems</a></li>
+                    <li><a href="#">Automata and Compilers Design</a></li>
+                    <li><a href="#">Computer Organization and Architecture</a></li>
+                    <li><a href="#">Open Elective</a></li>
+                </ul>
+            </div>
+            <!-- Semester 6 -->
+            <div class="column">
+                <h2>Semester 6</h2>
+                <ul>
+                    <li><a href="#">Mobile Application Development with Java</a></li>
+                    <li><a href="#">Co-Curriculam Activities</a></li>
+                    <li><a href="#">Community Service and social Responsibility</a></li>
+                    <li><a href="#">Software Engineering and Project Management</a></li>
+                    <li><a href="#">Career Skills-2</a></li>
+                    <li><a href="#">Core Elective-1</a></li>
+                    <li><a href="#">Stream Elective-1</a></li>
+                    <li><a href="#">Stream Elective-2</a></li>
+                    <li><a href="#">Open Elective</a></li>
+                </ul>
+            </div>
+             <!-- Semester 7 -->
+             <div class="column">
+                <h2>Semester 7</h2>
+                <ul>
+                    <li><a href="#">>Core Elective-2</a></li>
+                    <li><a href="#">Stream Elective-3</a></li>
+                    <li><a href="#">Stream Elective-4</a></li>
+                    <li><a href="#">Summer Internship/Mini Project/Research Project</a></li>
+                    <li><a href="#">Open Elective</a></li>
+                </ul>
+            </div>
+             <!-- Semester 8 -->
+             <div class="column">
+                <h2>Semester 8</h2>
+                <ul>
+                    <li><a href="#">Major Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Curr" id="right-bar" >
+      <select id="language" style="height: 30px; width: 200px; text-align: center;" >
+        <option value="eng" >English</option>
+        <option value="tel">Telugu</option>
+        <option value="hin">Hindi</option>
+        <option value="tam">Tamil</option>
+        <option value="mala">Malayalam</option>
+        <option value="kana">Kannada</option>
+        <option value="fre">French</option>
+        <option value="jap">Japanese</option>
+
+      </select>
+      <div class="header" style="background-color:rgb(209, 207, 207);">
+            <h2>
+              India
+            </h2>
+            
+    
+              <div class="column">
+                  <ul>
+                      <li><a href="#">Vijayawada</a></li>
+                      <li><a href="#">Hyderabad</a></li>
+                      <li><a href="#">Tirupati</a></li>
+                      <li><a href="#">Vizag</a></li>
+                      <li><a href="#">Bangalore</a></li>
+                      <li><a href="#">Mumbai</a></li>
+                      <li><a href="#">Delhi</a></li>
+                  </ul>
+              </div>
+        </div>
+        
+       
+    </div>
+  </div>
+</body>
+</html>
